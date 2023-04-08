@@ -1,1 +1,68 @@
-# Portfolio.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    
+    
+</head>
+<body>
+    <div class="header">
+        <div class="name"><img src="blue-square-emoji.png" alt="" width="30px" height="30px">Ashraf Khalifa / Developer</div>
+        <div class="b"> <img src="menu_14.png" width="50px" height="50px"></div>
+        <div class="nav">
+            
+            <div class="home"> <a href="index.html" > HOME</a></div>
+            <div class="projects"><a href="Projects.html"> PROJECTS</a></div>
+            <div class="about-me"> <a href="ABOUT ME.html" > ABOUT ME </a></div>
+            <div class="contact">  <a href="contact.html"> CONTACT</a></div>
+        </div>  
+    </div>
+
+    
+<div class="parent">
+    <div class="div1"> </div>
+    <div class="div2">
+        
+        <div class="img"><img src="219983.png" alt="" width="150px" height="150px"></div>
+        <p>Ashraf Khalifa</p> 
+        <p>Developer </p>
+        <div class="i-footer">
+            <a href="https://www.linkedin.com/in/ashraf-khalifa-b6b192269/"target="_blank">
+        <img src="social-linkedin-circular_1.png" alt="" width="30px" height="30px"> </a> 
+        <a href="https://www.instagram.com/ashraf_khalifa7/"target="_blank">
+        <img src="instagram_15.png" alt="" width="30px" height="30px"> </a>
+        <a href="https://github.com/Ashraf-Khalifa"target="_blank">
+        <img src="25231.png" alt="" width="30px" height="30px"> </a>
+        <a href="mailto:ashrafrkhalifa@gmail.com"target="_blank">
+        <img src="mail-icon-black-and-white-16.png" alt="" width="30px" height="30px"></a>
+        </div>
+    </div>
+    <div class="div7"><h1>Hello</h1>  <br><h2>Truning ideas into <br>real life products is my calling.</h2></div>
+    <div class="div8"><a href="https://drive.google.com/file/d/1RLdxXGkygPhhNY8xLQFaYgKF3Osg1DYi/view?usp=share_link" download=""target="_blank"> RESUME </a></div>
+    <div class="div9"><a href="Projects.html">PROJECTS</a> </div>
+    <div class="div10"></div>
+    </div>
+    
+    
+
+    <div class="footer">
+        <div class="name1">© 2023 by Ashraf Khalifa.</div>
+        <div class="nav1">
+            <div class="home">Call <br> 0770000000</div>
+            <div class="projects">Write <br>ashrafrkhalifa@gmail.com</div>
+            <div class="about-me">Follow <br>  <a href="https://www.linkedin.com/in/ashraf-khalifa-b6b192269/"target="_blank">
+                <img src="social-linkedin-circular_1.png" alt="" width="15px" height="15px"> </a> 
+                <a href="https://www.instagram.com/ashraf_khalifa7/"target="_blank">
+                    <img src="instagram_15.png" alt="" width="15px" height="15px"> </a>
+                    <a href="https://web.facebook.com/ashraf.khalefeh.7"target="_blank">
+                    <img src="facebook_7.png" width="15px" height="15px"></a>
+                      <img src="733635.png" width="15px" height="15px"> </div>
+            
+        </div>  
+    </div>
+</body>
+</html>
