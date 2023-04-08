@@ -1,0 +1,180 @@
+
+.header{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky;
+top: 0;
+z-index: 999;
+background-color: white;
+
+}
+.nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .home, .projects, .about-me, .contact {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+   
+    cursor: pointer;
+              
+  }
+  
+  .home:hover, .projects:hover, .about-me:hover, .contact:hover {
+    transform: translateY(1px);
+    box-shadow:  rgba(0,0,0,0.10),
+               rgba(0,0,0,0.09);
+             color: #4b8cfb;
+  }
+  
+.name{
+   display: flex;
+margin: 20px 20px 20px 20px;
+align-items: center;
+font-size: larger;
+font-weight: bold ;
+}
+
+.nav{
+    display: flex;
+align-items: center;
+margin: 20px 20px 20px 20px;
+font-size: larger;
+
+}
+.home{
+    margin: 20px;
+
+}
+
+.projects{
+    margin: 20px;
+}
+.about-me{
+    margin: 20px;
+}
+.contact{
+    margin: 20px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+width: 100%;
+height: 700px;
+margin: 0;
+    }
+    
+    .div1 {background-color: rgb(230, 218, 206);
+        grid-area: 2 / 1 / 9 / 2;
+        width: 80%;
+        height: 565px; }
+    .div2 {background-color: rgb(252, 249, 247 );
+        grid-area: 3 / 1 / 8 / 2;
+        width: 50%;
+        margin: 30px 20px 20px 388px;
+        height: 360px;
+        opacity: 0.6;
+        width: 232px;
+        text-align:center;
+        float:left;
+         }
+         .img{margin: 40px; border-radius: 50%; }
+         img:hover {
+            opacity: 1.0;}
+            .i-name{display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 50px;}
+                .i-footer{display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 235px;
+                    height: 70px;}
+                    .div7 {width: 188px; grid-area: 4 / 2 / 5 / 3; }
+                    .div8 {
+                        margin: 10px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        grid-area: 5 / 2 / 6 / 3; 
+                        padding: 7px 35px;
+                        border-radius: 60px;
+                        background-color: #4b8cfb;
+                        font-size: 18px;
+                        cursor: pointer;
+                        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+                                  0 2px 10px 0 rgba(0,0,0,0.07);
+                        
+                        transition: all 300ms ease;}
+
+                        .div8:hover {
+                            transform: translateY(1px);
+                            box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+                                      0 1px 1px 0 rgba(0,0,0,0.09);
+                        }
+                        .div9 {
+                            margin: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                         grid-area: 5 / 3 / 6 / 4;
+                         padding: 7px 35px;
+                        border-radius: 60px;
+                        background-color: #4b8cfb;
+                        font-size: 18px;
+                        cursor: pointer;
+                        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+                                  0 2px 10px 0 rgba(0,0,0,0.07);
+                        
+                        transition: all 300ms ease;}
+
+                        .div9:hover {
+                            transform: translateY(1px);
+                            box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+                                      0 1px 1px 0 rgba(0,0,0,0.09);
+                        }
+                    .div10 {width: 150px; height: 200px; grid-area: 6 / 2 / 7 / 3; } 
+
+    .footer{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    }
+    .name1{
+        display: flex;
+     margin: 20px 20px 20px 20px;
+     align-items: center;
+     font-size: larger;
+     font-weight: bold ;
+     }
+    
+    
+    .nav1{
+        display: flex;
+align-items: center;
+margin: 20px 20px 20px 20px;
+font-size: larger;
+    }
+    .b{
+    display:none;
+    }
+    @media screen and (max-width: 600px) {
+        .nav {
+          
+          display: none;
+        }
+        .b{
+            display:inline-block;
+            }
+      }
+      
